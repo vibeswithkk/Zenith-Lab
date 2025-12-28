@@ -1,0 +1,9 @@
+ZENITH_Main/
+zenith_repo/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+zenith_results/
+results/
+.DS_Store
