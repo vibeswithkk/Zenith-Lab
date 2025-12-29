@@ -1,6 +1,22 @@
 The following section presents the empirical results generated from controlled experiments executed within a Jupyter Notebook environment. To ensure clarity and reproducibility, this document intentionally focuses on the outcome metrics only. Complete details regarding the experimental setup, source files, configurations, and executed code paths are available at the referenced location below.
 https://colab.research.google.com/github/vibeswithkk/zenith-performance-suite/blob/main/Zenith_Scientific_DynamicShape_Test.ipynb
 
+# Zenith Scientific Test 3: The Dynamic Shape Torture Test
+
+**Objective:**
+Real-world AI workloads (like Chatbots) have variable input lengths. Static compilers often fail here, triggering slow "re-compilation" for every new shape.
+This test verifies if Zenith handles **Dynamic Shapes** gracefully.
+
+**Methodology:**
+1.  Define a Linear Layer model.
+2.  Run an inference loop where `batch_size` is fixed (32), but `seq_len` changes randomly (between 100 and 1000) **every single iteration**.
+3.  **Metric:** Measure latency of each step. Watch for "Spikes".
+
+**Success Criteria:**
+*   **No compiling pauses:** The first few steps might be slow (warmup), but subsequent steps must be fast regardless of shape changes.
+*   **Linear Scaling:** Latency should increase linearly with sequence length, not exponentially.
+==============================================================================================
+
 Cell output 1 : 
 
      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 52.8/52.8 kB 4.5 MB/s eta 0:00:00
@@ -65,10 +81,11 @@ Step 20: SeqLen=566 -> 270.38ms
 Step 30: SeqLen=932 -> 438.70ms
 Step 40: SeqLen=143 -> 67.60ms
 
-![Dynamic Shape Chart](../../../assets/zenith_dynamic_shape_chart.png)
-
-
 ==============================================================================================
 
 Cell output 3 : 
+
+
+![Dynamic Shape Chart](../../../assets/zenith_dynamic_shape_chart.png)
+
 
