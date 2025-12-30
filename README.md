@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/zenith_v0.3.0_benchmark.png" alt="Zenith Benchmark" width="600"/>
+  <img src="assets/zenith_logo.png" alt="Zenith Logo" width="280"/>
 </p>
 
 <h1 align="center">Zenith Performance Suite</h1>
