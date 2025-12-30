@@ -191,10 +191,10 @@ Open any notebook directly in Google Colab:
 | Test | Colab Link |
 | :--- | :--- |
 | Real-World Benchmark | [Open](https://colab.research.google.com/github/vibeswithkk/Zenith-Lab/blob/main/Production_RealWorld_Tests/Zenith_v0.3.0_RealWorld_Benchmark.ipynb) |
-| Precision Test | [Open](https://colab.research.google.com/github/vibeswithkk/Zenith-Lab/blob/main/Zenith_Scientific_Precision_Test.ipynb) |
-| Dynamic Shape Test | [Open](https://colab.research.google.com/github/vibeswithkk/Zenith-Lab/blob/main/Zenith_Scientific_DynamicShape_Test.ipynb) |
-| Energy Test | [Open](https://colab.research.google.com/github/vibeswithkk/Zenith-Lab/blob/main/Zenith_Scientific_Energy_Test.ipynb) |
-| Stability Test | [Open](https://colab.research.google.com/github/vibeswithkk/Zenith-Lab/blob/main/Zenith_Scientific_Stability_Test.ipynb) |
+| Precision Test | [Open](https://colab.research.google.com/github/vibeswithkk/Zenith-Lab/blob/main/Production_RealWorld_Tests/Zenith_Scientific_Precision_Test.ipynb) |
+| Dynamic Shape Test | [Open](https://colab.research.google.com/github/vibeswithkk/Zenith-Lab/blob/main/Production_RealWorld_Tests/Zenith_Scientific_DynamicShape_Test.ipynb) |
+| Energy Test | [Open](https://colab.research.google.com/github/vibeswithkk/Zenith-Lab/blob/main/Production_RealWorld_Tests/Zenith_Scientific_Energy_Test.ipynb) |
+| Stability Test | [Open](https://colab.research.google.com/github/vibeswithkk/Zenith-Lab/blob/main/Production_RealWorld_Tests/Zenith_Scientific_Stability_Test.ipynb) |
 
 ---
 
