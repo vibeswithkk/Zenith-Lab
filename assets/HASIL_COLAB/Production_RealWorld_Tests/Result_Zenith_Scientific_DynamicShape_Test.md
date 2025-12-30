@@ -1,5 +1,5 @@
 The following section presents the empirical results generated from controlled experiments executed within a Jupyter Notebook environment. To ensure clarity and reproducibility, this document intentionally focuses on the outcome metrics only. Complete details regarding the experimental setup, source files, configurations, and executed code paths are available at the referenced location below.
-https://colab.research.google.com/github/vibeswithkk/zenith-performance-suite/blob/main/Zenith_Scientific_DynamicShape_Test.ipynb
+https://colab.research.google.com/github/vibeswithkk/Zenith-Lab/blob/main/Zenith_Scientific_DynamicShape_Test.ipynb
 
 # Zenith Scientific Test 3: The Dynamic Shape Torture Test
 

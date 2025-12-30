@@ -12,10 +12,10 @@
   <a href="https://pypi.org/project/pyzenith/">
     <img src="https://img.shields.io/pypi/v/pyzenith?color=blue&label=PyPI" alt="PyPI Version"/>
   </a>
-  <a href="https://github.com/vibeswithkk/zenith-performance-suite/blob/main/LICENSE">
+  <a href="https://github.com/vibeswithkk/Zenith-Lab/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"/>
   </a>
-  <a href="https://colab.research.google.com/github/vibeswithkk/zenith-performance-suite/blob/main/Production_RealWorld_Tests/Zenith_v0.3.0_RealWorld_Benchmark.ipynb">
+  <a href="https://colab.research.google.com/github/vibeswithkk/Zenith-Lab/blob/main/Production_RealWorld_Tests/Zenith_v0.3.0_RealWorld_Benchmark.ipynb">
     <img src="https://img.shields.io/badge/Open%20in-Colab-F9AB00?logo=googlecolab" alt="Open in Colab"/>
   </a>
 </p>
@@ -169,7 +169,7 @@ Determinism verification over 500 inference iterations.
 ## Repository Structure
 
 ```
-zenith-performance-suite/
+Zenith-Lab/
     Production_RealWorld_Tests/     # Real benchmark notebooks
     Legacy_Dummy_Tests/             # Historical test files
     assets/
@@ -190,11 +190,11 @@ Open any notebook directly in Google Colab:
 
 | Test | Colab Link |
 | :--- | :--- |
-| Real-World Benchmark | [Open](https://colab.research.google.com/github/vibeswithkk/zenith-performance-suite/blob/main/Production_RealWorld_Tests/Zenith_v0.3.0_RealWorld_Benchmark.ipynb) |
-| Precision Test | [Open](https://colab.research.google.com/github/vibeswithkk/zenith-performance-suite/blob/main/Zenith_Scientific_Precision_Test.ipynb) |
-| Dynamic Shape Test | [Open](https://colab.research.google.com/github/vibeswithkk/zenith-performance-suite/blob/main/Zenith_Scientific_DynamicShape_Test.ipynb) |
-| Energy Test | [Open](https://colab.research.google.com/github/vibeswithkk/zenith-performance-suite/blob/main/Zenith_Scientific_Energy_Test.ipynb) |
-| Stability Test | [Open](https://colab.research.google.com/github/vibeswithkk/zenith-performance-suite/blob/main/Zenith_Scientific_Stability_Test.ipynb) |
+| Real-World Benchmark | [Open](https://colab.research.google.com/github/vibeswithkk/Zenith-Lab/blob/main/Production_RealWorld_Tests/Zenith_v0.3.0_RealWorld_Benchmark.ipynb) |
+| Precision Test | [Open](https://colab.research.google.com/github/vibeswithkk/Zenith-Lab/blob/main/Zenith_Scientific_Precision_Test.ipynb) |
+| Dynamic Shape Test | [Open](https://colab.research.google.com/github/vibeswithkk/Zenith-Lab/blob/main/Zenith_Scientific_DynamicShape_Test.ipynb) |
+| Energy Test | [Open](https://colab.research.google.com/github/vibeswithkk/Zenith-Lab/blob/main/Zenith_Scientific_Energy_Test.ipynb) |
+| Stability Test | [Open](https://colab.research.google.com/github/vibeswithkk/Zenith-Lab/blob/main/Zenith_Scientific_Stability_Test.ipynb) |
 
 ---
 
